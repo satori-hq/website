@@ -3,6 +3,9 @@
 <head>
   <meta charset = "utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
   <title>Satori</title>
 	<style>
@@ -10,8 +13,9 @@
 		margin: 0;
 		text-align: center;
 		overflow: hidden;
+		font-family: 'Open Sans', sans-serif;
 	}
-	div {
+	.center {
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -20,13 +24,30 @@
 	}
 	img {
 		width: 100%;
-		max-width: 512px;
-		border: 1px solid #eee;
+		max-width: 375px;
+		display: block;
+	}
+	p {
+		color: #444;
 	}
 	</style>
 </head>
 
 <body>
-<div><img src="satori-splash.svg" /></div>
+<div class="center">
+	<div>
+		<img src="title.jpg" />
+		<p>
+			Crypto products for artists
+		</p>
+		<p>
+		Built on NEAR
+		</p>
+		<p>
+			(coming soon)
+		</p>
+	</div>
+</div>
+
 </body>
 </html>
